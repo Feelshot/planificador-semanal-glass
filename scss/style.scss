@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import "utilities/variables.scss";
+* {margin: 0px; padding: 0px;}
+body {
+    /*
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    */
+}
+body {
+    main {
+        section {
+            .objetivos {
+                .tituloObjetivos {
+                    h2 {}
+                    p {}
+                }
+                .pointsObjetivos {
+                    .objetivoUno {
+                        .imagenObjetivo {
+                            img {}
+                        }
+                        p {}
+
+                    }
+                    .objetivoDos {
+                        .imagenObjetivo {
+                            img {}
+                        }
+                        p {}
+
+                    }
+                    .objetivoTres {
+                        .imagenObjetivo {
+                            img {}
+                        }
+                        p {}
+
+                    }
+                    .objetivoCuatro {
+                        .imagenObjetivo {
+                            img {}
+                        }
+                        p {}
+
+                    }
+                    .objetivoCinco {
+                        .imagenObjetivo {
+                            img {}
+                        }
+                        p {}
+
+                    }
+                    .objetivoSeis {
+                        .imagenObjetivo {
+                            img {}
+                        }
+                        p {}
+
+                    }
+                    .objetivoSiete {
+                        .imagenObjetivo {
+                            img {}
+                        }
+                        p {}
+
+                    }
+                }
+            }
+            .planeadorSemanal {
+                .tituloPlanificador {
+                    h1 {}
+                    p {}
+                }
+                .actividadesPlanificador {
+                    .lunes {
+                        .actividad {}
+                        .actL1 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actL2 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actL3 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                    }
+                    .martes {
+                        .actM1 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actM2 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actM3 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                    }
+                    .miercoles {
+                        .actW1 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actW2 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actW3 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                    }
+                    .jueves {
+                        .actJ1 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actJ2 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actJ3 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                    }
+                    .viernes {
+                        .actV1 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actV2 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actV3 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                    }
+                    .sabado {
+                        .actS1 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actS2 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actS3 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                    }
+                    .domingo {
+                        .actD1 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actD2 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                        .actD3 {
+                            .actividadName {}
+                            .tarjetaHorario {
+                                p {}
+                                p {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
