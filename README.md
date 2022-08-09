@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ferneynava/Planeador-semanal">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Planeador semanal</h3>
@@ -20,14 +20,14 @@
   <p align="center">
     Creación planeador semanal. Reto de Platzi - teffcode 
     <br />
-    <a href="https://github.com/ferneynava/Planeador-semanal"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Feelshot/planificador-semanal-glass"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://ferneynava.github.io/Planeador-semanal/">View Demo</a>
+    <a href="https://planificador-semanal-glass.vercel.app">View Demo</a>
     ·
-    <a href="https://github.com/ferneynava/Planeador-semanal/issues">Report Bug</a>
+    <a href="https://github.com/Feelshot/planificador-semanal-glass/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ferneynava/Planeador-semanal/issues">Request Feature</a>
+    <a href="https://github.com/Feelshot/planificador-semanal-glass/issues">Request Feature</a>
   </p>
 </div>
 
@@ -73,6 +73,7 @@ Maquetación de un planeador semanal con CSS Grid, Flexbox y Glassmorphism. Reto
 
 * ![HTML]
 * ![CSS]
+* ![SASS]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -142,9 +143,9 @@ Distributed under the [MIT](/LICENSE.txt) License. See `LICENSE.txt` for more in
 <!-- CONTACT -->
 ## Contact
 
-Ferney Alexander Nava Trujillo - ferneynava@gmail.com
+Dani Feelshot - feelshotmarketing@gmail.com
 
-Project Link: [https://ferneynava.github.io/Planeador-semanal/](https://ferneynava.github.io/Planeador-semanal/)
+Project Link: [https://github.com/Feelshot/planificador-semanal-glass/](https://github.com/Feelshot/planificador-semanal-glass/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
