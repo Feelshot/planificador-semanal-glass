@@ -73,7 +73,7 @@ Maquetación de un planeador semanal con CSS Grid, Flexbox y Glassmorphism. Reto
 
 * ![HTML]
 * ![CSS]
-* ![SASS]
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
