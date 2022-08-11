@@ -35,57 +35,114 @@ body {
                     -webkit-backdrop-filter: blur(4.3px);
                 border: 1px solid rgba(255, 255, 255, 0.64);
                 .tituloObjetivos {
-                    h2 {}
-                    p {}
+                    h2 {
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 800;
+                        font-size: 40px;
+                    }
+                    p {
+                        font-family: 'Merriweather', serif; 
+                        font-weight: 500;
+                        margin-top: 10px;
+                    }
                 }
                 .pointsObjetivos {
                     .objetivoUno {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 30px;
                         .imagenObjetivo {
                             img {}
                         }
-                        p {}
+                        p {
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;
+                            margin-left: 10px;
+                        }
 
                     }
                     .objetivoDos {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 10px;
                         .imagenObjetivo {
                             img {}
                         }
-                        p {}
+                        p {
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;
+                            margin-left: 10px;
+                        }
 
                     }
                     .objetivoTres {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 10px;
                         .imagenObjetivo {
                             img {}
                         }
-                        p {}
+                        p {
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;
+                            margin-left: 10px;
+                        }
 
                     }
                     .objetivoCuatro {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 10px;
                         .imagenObjetivo {
                             img {}
                         }
-                        p {}
+                        p {
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;
+                            margin-left: 10px;
+                        }
 
                     }
                     .objetivoCinco {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 10px;
                         .imagenObjetivo {
                             img {}
                         }
-                        p {}
+                        p {
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;
+                            margin-left: 10px;
+                        }
 
                     }
                     .objetivoSeis {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 10px;
                         .imagenObjetivo {
                             img {}
                         }
-                        p {}
+                        p {
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;
+                            margin-left: 10px;
+                        }
 
                     }
                     .objetivoSiete {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 10px;
                         .imagenObjetivo {
                             img {}
                         }
-                        p {}
+                        p {
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;
+                            margin-left: 10px;
+                        }
 
                     }
                 }
@@ -101,18 +158,45 @@ body {
                     -webkit-backdrop-filter: blur(4.3px);
                 border: 1px solid rgba(255, 255, 255, 0.64);
                 .tituloPlanificador {
-                    h1 {}
-                    p {}
+                    h1 {
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: 800;
+                        font-size: 40px;
+                    }
+                    p {
+                        font-family: 'Merriweather', serif; 
+                        font-weight: 500;
+                        margin-top: 10px;
+                    }
                 }
                 .actividadesPlanificador {
                     display: flex;
+                    margin-top: 30px;
+                    justify-content: space-around;
                     .lunes {
                         .actividad {}
                         .actL1 {
+                            width: 100px;
+                            height: 100px;
+                             /* efecto glassmorphism */
+                            background: rgba(255, 255, 255, 0.19);
+                            border-radius: 16px;
+                            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                            backdrop-filter: blur(4.3px);
+                                -webkit-backdrop-filter: blur(4.3px);
+                            border: 1px solid rgba(255, 255, 255, 0.64);
                             .actividadName {}
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                .p1 {
+                                    font-family: 'Roboto', sans-serif;
+                                    font-weight: 800;
+                                    color: rgb(56, 56, 56);
+                                }
+                                .p2 {
+                                    font-family: 'Roboto', sans-serif;
+                                    font-weight: 400;
+                                    color: rgb(56, 56, 56); 
+                                }
                             }
                         }
                         .actL2 {

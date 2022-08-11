@@ -35,6 +35,70 @@ body {
       backdrop-filter: blur(4.3px);
       -webkit-backdrop-filter: blur(4.3px);
       border: 1px solid rgba(255, 255, 255, 0.64); }
+      body main section .objetivos .tituloObjetivos h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        font-size: 40px; }
+      body main section .objetivos .tituloObjetivos p {
+        font-family: 'Merriweather', serif;
+        font-weight: 500;
+        margin-top: 10px; }
+      body main section .objetivos .pointsObjetivos .objetivoUno {
+        display: flex;
+        align-items: center;
+        margin-top: 30px; }
+        body main section .objetivos .pointsObjetivos .objetivoUno p {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          margin-left: 10px; }
+      body main section .objetivos .pointsObjetivos .objetivoDos {
+        display: flex;
+        align-items: center;
+        margin-top: 10px; }
+        body main section .objetivos .pointsObjetivos .objetivoDos p {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          margin-left: 10px; }
+      body main section .objetivos .pointsObjetivos .objetivoTres {
+        display: flex;
+        align-items: center;
+        margin-top: 10px; }
+        body main section .objetivos .pointsObjetivos .objetivoTres p {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          margin-left: 10px; }
+      body main section .objetivos .pointsObjetivos .objetivoCuatro {
+        display: flex;
+        align-items: center;
+        margin-top: 10px; }
+        body main section .objetivos .pointsObjetivos .objetivoCuatro p {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          margin-left: 10px; }
+      body main section .objetivos .pointsObjetivos .objetivoCinco {
+        display: flex;
+        align-items: center;
+        margin-top: 10px; }
+        body main section .objetivos .pointsObjetivos .objetivoCinco p {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          margin-left: 10px; }
+      body main section .objetivos .pointsObjetivos .objetivoSeis {
+        display: flex;
+        align-items: center;
+        margin-top: 10px; }
+        body main section .objetivos .pointsObjetivos .objetivoSeis p {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          margin-left: 10px; }
+      body main section .objetivos .pointsObjetivos .objetivoSiete {
+        display: flex;
+        align-items: center;
+        margin-top: 10px; }
+        body main section .objetivos .pointsObjetivos .objetivoSiete p {
+          font-family: 'Roboto', sans-serif;
+          font-weight: 300;
+          margin-left: 10px; }
     body main section .planeadorSemanal {
       width: 80%;
       padding: 20px 0 0 20px;
@@ -45,5 +109,33 @@ body {
       backdrop-filter: blur(4.3px);
       -webkit-backdrop-filter: blur(4.3px);
       border: 1px solid rgba(255, 255, 255, 0.64); }
+      body main section .planeadorSemanal .tituloPlanificador h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        font-size: 40px; }
+      body main section .planeadorSemanal .tituloPlanificador p {
+        font-family: 'Merriweather', serif;
+        font-weight: 500;
+        margin-top: 10px; }
       body main section .planeadorSemanal .actividadesPlanificador {
-        display: flex; }
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around; }
+        body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 {
+          width: 100px;
+          height: 100px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64); }
+          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 .tarjetaHorario .p1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 800;
+            color: #383838; }
+          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 .tarjetaHorario .p2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color: #383838; }
