@@ -14,7 +14,7 @@ body {
             display: flex;
             margin: 30px auto 0 auto;
             padding: 50px;
-            width: 80%;
+            width: 90%;
             height: 700px;
             /* efecto glassmorphism */
             background: rgba(255, 255, 255, 0.19);
@@ -149,7 +149,7 @@ body {
             }
             .planeadorSemanal {
                 width: 80%;
-                padding: 20px 0 0 20px;
+                padding: 30px;
                 /* efecto glassmorphism */
                 background: rgba(255, 255, 255, 0.19);
                 border-radius: 16px;
@@ -172,183 +172,441 @@ body {
                 .actividadesPlanificador {
                     display: flex;
                     margin-top: 30px;
+                    margin-left: -20px;
                     justify-content: space-around;
                     .lunes {
-                        .actividad {}
+                        .diaSemana {
+                            @include dia-semana;
+                        }
                         .actL1 {
-                            width: 100px;
-                            height: 100px;
-                             /* efecto glassmorphism */
-                            background: rgba(255, 255, 255, 0.19);
-                            border-radius: 16px;
-                            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-                            backdrop-filter: blur(4.3px);
-                                -webkit-backdrop-filter: blur(4.3px);
-                            border: 1px solid rgba(255, 255, 255, 0.64);
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
+                                @include formato-horas;
                                 .p1 {
-                                    font-family: 'Roboto', sans-serif;
-                                    font-weight: 800;
-                                    color: rgb(56, 56, 56);
+                                    @include texto-hora;
                                 }
                                 .p2 {
-                                    font-family: 'Roboto', sans-serif;
-                                    font-weight: 400;
-                                    color: rgb(56, 56, 56); 
+                                    @include texto-acts-02;
                                 }
                             }
                         }
                         .actL2 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actL3 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                     }
                     .martes {
+                        .diaSemana {
+                            @include dia-semana;
+                        }
                         .actM1 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actM2 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actM3 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                     }
                     .miercoles {
+                        .diaSemana {
+                            @include dia-semana;
+                        }
                         .actW1 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actW2 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actW3 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                     }
                     .jueves {
+                        .diaSemana {
+                            @include dia-semana;
+                        }
                         .actJ1 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actJ2 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actJ3 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                     }
                     .viernes {
+                        .diaSemana {
+                            @include dia-semana;
+                        }
                         .actV1 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actV2 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actV3 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                     }
                     .sabado {
+                        .diaSemana {
+                            @include dia-semana;
+                        }
                         .actS1 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actS2 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
-                        .actS3 {
-                            .actividadName {}
-                            .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
-                            }
-                        }
+
                     }
                     .domingo {
+                        .diaSemana {
+                            @include dia-semana;
+                        }
                         .actD1 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actD2 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                         .actD3 {
-                            .actividadName {}
+                            @include formato-acts;
+                            display: flex;
+                            .actividadName {
+                                transform: rotate(180deg);
+                                p {
+                                    @include texto-acts-01;
+                                    writing-mode: vertical-rl;
+                                }
+                            }
                             .tarjetaHorario {
-                                .p1 {}
-                                .p2 {}
+                                @include formato-horas;
+                                .p1 {
+                                    @include texto-hora;
+                                }
+                                .p2 {
+                                    @include texto-acts-02;
+                                }
                             }
                         }
                     }

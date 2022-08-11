@@ -15,7 +15,7 @@ body {
     display: flex;
     margin: 30px auto 0 auto;
     padding: 50px;
-    width: 80%;
+    width: 90%;
     height: 700px;
     /* efecto glassmorphism */
     background: rgba(255, 255, 255, 0.19);
@@ -101,7 +101,7 @@ body {
           margin-left: 10px; }
     body main section .planeadorSemanal {
       width: 80%;
-      padding: 20px 0 0 20px;
+      padding: 30px;
       /* efecto glassmorphism */
       background: rgba(255, 255, 255, 0.19);
       border-radius: 16px;
@@ -120,22 +120,1002 @@ body {
       body main section .planeadorSemanal .actividadesPlanificador {
         display: flex;
         margin-top: 30px;
+        margin-left: -20px;
         justify-content: space-around; }
+        body main section .planeadorSemanal .actividadesPlanificador .lunes .diaSemana {
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.365);
+          border-radius: 20px;
+          border: 1px solid rgba(255, 255, 255, 0.754);
+          box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.271);
+          height: 30px; }
         body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 {
           width: 100px;
           height: 100px;
+          margin-top: 10px;
           /* efecto glassmorphism */
           background: rgba(255, 255, 255, 0.19);
           border-radius: 16px;
           box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
           backdrop-filter: blur(4.3px);
           -webkit-backdrop-filter: blur(4.3px);
-          border: 1px solid rgba(255, 255, 255, 0.64); }
-          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 .tarjetaHorario .p1 {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 800;
-            color: #383838; }
-          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 .tarjetaHorario .p2 {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 400;
-            color: #383838; }
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .lunes .actL1 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .lunes .actL2 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL2 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .lunes .actL2 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL2 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .lunes .actL2 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .lunes .actL2 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .lunes .actL3 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL3 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .lunes .actL3 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .lunes .actL3 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .lunes .actL3 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .lunes .actL3 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .martes .diaSemana {
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.365);
+          border-radius: 20px;
+          border: 1px solid rgba(255, 255, 255, 0.754);
+          box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.271);
+          height: 30px; }
+        body main section .planeadorSemanal .actividadesPlanificador .martes .actM1 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .martes .actM1 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .martes .actM1 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .martes .actM1 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .martes .actM1 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .martes .actM1 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .martes .actM2 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .martes .actM2 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .martes .actM2 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .martes .actM2 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .martes .actM2 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .martes .actM2 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .martes .actM3 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .martes .actM3 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .martes .actM3 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .martes .actM3 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .martes .actM3 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .martes .actM3 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .miercoles .diaSemana {
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.365);
+          border-radius: 20px;
+          border: 1px solid rgba(255, 255, 255, 0.754);
+          box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.271);
+          height: 30px; }
+        body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW1 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW1 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW1 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW1 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW1 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW1 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW2 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW2 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW2 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW2 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW2 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW2 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW3 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW3 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW3 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW3 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW3 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .miercoles .actW3 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .jueves .diaSemana {
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.365);
+          border-radius: 20px;
+          border: 1px solid rgba(255, 255, 255, 0.754);
+          box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.271);
+          height: 30px; }
+        body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ1 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ1 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ1 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ1 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ1 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ1 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ2 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ2 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ2 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ2 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ2 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ2 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ3 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ3 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ3 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ3 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ3 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .jueves .actJ3 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .viernes .diaSemana {
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.365);
+          border-radius: 20px;
+          border: 1px solid rgba(255, 255, 255, 0.754);
+          box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.271);
+          height: 30px; }
+        body main section .planeadorSemanal .actividadesPlanificador .viernes .actV1 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .viernes .actV1 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .viernes .actV1 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .viernes .actV1 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .viernes .actV1 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .viernes .actV1 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .viernes .actV2 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .viernes .actV2 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .viernes .actV2 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .viernes .actV2 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .viernes .actV2 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .viernes .actV2 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .viernes .actV3 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .viernes .actV3 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .viernes .actV3 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .viernes .actV3 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .viernes .actV3 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .viernes .actV3 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .sabado .diaSemana {
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.365);
+          border-radius: 20px;
+          border: 1px solid rgba(255, 255, 255, 0.754);
+          box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.271);
+          height: 30px; }
+        body main section .planeadorSemanal .actividadesPlanificador .sabado .actS1 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .sabado .actS1 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .sabado .actS1 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .sabado .actS1 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .sabado .actS1 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .sabado .actS1 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .sabado .actS2 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .sabado .actS2 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .sabado .actS2 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .sabado .actS2 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .sabado .actS2 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .sabado .actS2 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .domingo .diaSemana {
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(255, 255, 255, 0.365);
+          border-radius: 20px;
+          border: 1px solid rgba(255, 255, 255, 0.754);
+          box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.271);
+          height: 30px; }
+        body main section .planeadorSemanal .actividadesPlanificador .domingo .actD1 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .domingo .actD1 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .domingo .actD1 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .domingo .actD1 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .domingo .actD1 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .domingo .actD1 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .domingo .actD2 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .domingo .actD2 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .domingo .actD2 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .domingo .actD2 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .domingo .actD2 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .domingo .actD2 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
+        body main section .planeadorSemanal .actividadesPlanificador .domingo .actD3 {
+          width: 100px;
+          height: 100px;
+          margin-top: 10px;
+          /* efecto glassmorphism */
+          background: rgba(255, 255, 255, 0.19);
+          border-radius: 16px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(4.3px);
+          -webkit-backdrop-filter: blur(4.3px);
+          border: 1px solid rgba(255, 255, 255, 0.64);
+          display: flex; }
+          body main section .planeadorSemanal .actividadesPlanificador .domingo .actD3 .actividadName {
+            transform: rotate(180deg); }
+            body main section .planeadorSemanal .actividadesPlanificador .domingo .actD3 .actividadName p {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 14px;
+              margin: 5px 5px 5px 5px;
+              color: #383838;
+              writing-mode: vertical-rl; }
+          body main section .planeadorSemanal .actividadesPlanificador .domingo .actD3 .tarjetaHorario {
+            width: 100px;
+            height: 100px;
+            padding: 0px 5px 0px 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* efecto glassmorphism */
+            background: #e1e1e1;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.3px);
+            -webkit-backdrop-filter: blur(4.3px);
+            border: 1px solid rgba(255, 255, 255, 0.64); }
+            body main section .planeadorSemanal .actividadesPlanificador .domingo .actD3 .tarjetaHorario .p1 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 800;
+              font-size: 16px;
+              color: #383838;
+              margin: 0 0 5px 0; }
+            body main section .planeadorSemanal .actividadesPlanificador .domingo .actD3 .tarjetaHorario .p2 {
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #383838; }
