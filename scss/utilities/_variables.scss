@@ -64,3 +64,129 @@ $gradiente-Algodon: linear-gradient(265deg, rgba(243,111,255,1) 0%, rgba(51,72,2
     color: rgb(56, 56, 56); 
     margin: 0 0 5px 0;
 }
+// mixin para tablet
+@mixin formato-acts-tablet {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+     /* efecto glassmorphism */
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+        -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+}
+@mixin formato-horas-tablet {
+    width: 100px;
+    height: 100px;
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     /* efecto glassmorphism */
+    background: rgb(225, 225, 225);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+        -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.64); 
+}
+
+@mixin dia-semana-tablet {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.365);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.754);
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.271);
+    height: 30px;
+}
+
+@mixin texto-acts-01-tablet {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    margin: 5px 5px 5px 5px;
+    color: rgb(56, 56, 56);
+}
+@mixin texto-acts-02-tablet {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(56, 56, 56); 
+}
+@mixin texto-hora-tablet {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgb(56, 56, 56); 
+    margin: 0 0 5px 0;
+}
+
+// mixin para telefono
+
+@mixin formato-acts-mobile {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+     /* efecto glassmorphism */
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+        -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+}
+@mixin formato-horas-mobile {
+    width: 100px;
+    height: 100px;
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     /* efecto glassmorphism */
+    background: rgb(225, 225, 225);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+        -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.64); 
+}
+
+@mixin dia-semana-mobile {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.365);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.754);
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.271);
+    height: 30px;
+}
+
+@mixin texto-acts-01-mobile {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    margin: 5px 5px 5px 5px;
+    color: rgb(56, 56, 56);
+}
+@mixin texto-acts-02-mobile {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(56, 56, 56); 
+}
+@mixin texto-hora-mobile {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: rgb(56, 56, 56); 
+    margin: 0 0 5px 0;
+}

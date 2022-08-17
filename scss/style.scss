@@ -619,7 +619,614 @@ body {
 /* =-=-=-=- Media Querries -=-=-=-= */
 /* ==== TABLET ==== */
 @media (min-width: 650px) and (max-width: 900px) {
-
+    body {
+        background: $gradiente-Algodon;
+        main {
+            section {
+                display: flex;
+                margin: 30px auto 0 auto;
+                padding: 50px;
+                width: 90%;
+                height: 700px;
+                /* efecto glassmorphism */
+                background: rgba(255, 255, 255, 0.19);
+                border-radius: 16px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(4.3px);
+                    -webkit-backdrop-filter: blur(4.3px);
+                border: 1px solid rgba(255, 255, 255, 0.64);
+                .objetivos {
+                    width: 20%;
+                    margin: 0 30px 0 0;
+                    padding: 20px 0 0 20px;
+                    /* efecto glassmorphism */
+                    background: rgba(255, 255, 255, 0.19);
+                    border-radius: 16px;
+                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                    backdrop-filter: blur(4.3px);
+                        -webkit-backdrop-filter: blur(4.3px);
+                    border: 1px solid rgba(255, 255, 255, 0.64);
+                    .tituloObjetivos {
+                        h2 {
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 800;
+                            font-size: 40px;
+                        }
+                        p {
+                            font-family: 'Merriweather', serif; 
+                            font-weight: 500;
+                            margin-top: 10px;
+                        }
+                    }
+                    .pointsObjetivos {
+                        .objetivoUno {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 30px;
+                            .imagenObjetivo {
+                                img {}
+                            }
+                            p {
+                                font-family: 'Roboto', sans-serif;
+                                font-weight: 300;
+                                margin-left: 10px;
+                            }
+    
+                        }
+                        .objetivoDos {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 10px;
+                            .imagenObjetivo {
+                                img {}
+                            }
+                            p {
+                                font-family: 'Roboto', sans-serif;
+                                font-weight: 300;
+                                margin-left: 10px;
+                            }
+    
+                        }
+                        .objetivoTres {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 10px;
+                            .imagenObjetivo {
+                                img {}
+                            }
+                            p {
+                                font-family: 'Roboto', sans-serif;
+                                font-weight: 300;
+                                margin-left: 10px;
+                            }
+    
+                        }
+                        .objetivoCuatro {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 10px;
+                            .imagenObjetivo {
+                                img {}
+                            }
+                            p {
+                                font-family: 'Roboto', sans-serif;
+                                font-weight: 300;
+                                margin-left: 10px;
+                            }
+    
+                        }
+                        .objetivoCinco {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 10px;
+                            .imagenObjetivo {
+                                img {}
+                            }
+                            p {
+                                font-family: 'Roboto', sans-serif;
+                                font-weight: 300;
+                                margin-left: 10px;
+                            }
+    
+                        }
+                        .objetivoSeis {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 10px;
+                            .imagenObjetivo {
+                                img {}
+                            }
+                            p {
+                                font-family: 'Roboto', sans-serif;
+                                font-weight: 300;
+                                margin-left: 10px;
+                            }
+    
+                        }
+                        .objetivoSiete {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 10px;
+                            .imagenObjetivo {
+                                img {}
+                            }
+                            p {
+                                font-family: 'Roboto', sans-serif;
+                                font-weight: 300;
+                                margin-left: 10px;
+                            }
+    
+                        }
+                    }
+                }
+                .planeadorSemanal {
+                    width: 80%;
+                    padding: 30px;
+                    /* efecto glassmorphism */
+                    background: rgba(255, 255, 255, 0.19);
+                    border-radius: 16px;
+                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                    backdrop-filter: blur(4.3px);
+                        -webkit-backdrop-filter: blur(4.3px);
+                    border: 1px solid rgba(255, 255, 255, 0.64);
+                    .tituloPlanificador {
+                        h1 {
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 800;
+                            font-size: 40px;
+                        }
+                        p {
+                            font-family: 'Merriweather', serif; 
+                            font-weight: 500;
+                            margin-top: 10px;
+                        }
+                    }
+                    .actividadesPlanificador {
+                        display: flex;
+                        margin-top: 30px;
+                        margin-left: -20px;
+                        justify-content: space-around;
+                        .lunes {
+                            .diaSemana {
+                                @include dia-semana-tablet;
+                            }
+                            .actL1 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actL2 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actL3 {
+                                @include formato-acts;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                        }
+                        .martes {
+                            .diaSemana {
+                                @include dia-semana-tablet;
+                            }
+                            .actM1 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actM2 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actM3 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                        }
+                        .miercoles {
+                            .diaSemana {
+                                @include dia-semana-tablet;
+                            }
+                            .actW1 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actW2 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actW3 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                        }
+                        .jueves {
+                            .diaSemana {
+                                @include dia-semana-tablet;
+                            }
+                            .actJ1 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actJ2 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actJ3 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                        }
+                        .viernes {
+                            .diaSemana {
+                                @include dia-semana-tablet;
+                            }
+                            .actV1 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actV2 {
+                                @include formato-acts;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actV3 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                        }
+                        .sabado {
+                            .diaSemana {
+                                @include dia-semana-tablet;
+                            }
+                            .actS1 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actS2 {
+                                @include formato-acts;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+    
+                        }
+                        .domingo {
+                            .diaSemana {
+                                @include dia-semana-tablet;
+                            }
+                            .actD1 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actD2 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                            .actD3 {
+                                @include formato-acts-tablet;
+                                display: flex;
+                                .actividadName {
+                                    transform: rotate(180deg);
+                                    p {
+                                        @include texto-acts-01-tablet;
+                                        writing-mode: vertical-rl;
+                                    }
+                                }
+                                .tarjetaHorario {
+                                    @include formato-horas-tablet;
+                                    .p1 {
+                                        @include texto-hora-tablet;
+                                    }
+                                    .p2 {
+                                        @include texto-acts-02-tablet;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* ==== MOBILE ==== */
